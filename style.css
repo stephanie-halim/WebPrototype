@@ -89,14 +89,14 @@ a.button {
 }
 
 .button--green {
-  background-color: #8bdb5f;
+  background-color: #80b522;
   color: #FFFFFF;
 }
 
 .button--green:hover,
 .button--green:focus,
 .button--green:active {
-  background-color: #84cd5b;
+  background-color: #6f9c11;
 }
 
 .button--transparent:hover,
@@ -248,32 +248,32 @@ img {
 
 .article--impact 
 .article__item:first-child {
-  background-color: rgb(160, 243, 160)
+  background-color: rgb(193, 220, 4)
 }
 
 .article--impact 
 .article__item:first-child:hover{
-  background-color: rgb(160, 220, 160)
+  background-color: rgb(164, 184, 23)
 }
 
 .article--impact 
 .article__item:nth-child(2) {
-  background-color: lightskyblue;
+  background-color: rgb(44, 139, 193);
 }
 
 .article--impact 
 .article__item:nth-child(2):hover {
-  background-color: rgb(125, 191, 233);
+  background-color: rgb(33, 106, 148);
 }
 
 .article--impact 
 .article__item:nth-child(3) {
-  background-color: green;
+  background-color: rgb(90, 152, 25);
 }
 
 .article--impact 
 .article__item:nth-child(3):hover {
-  background-color: rgb(1, 110, 8)
+  background-color: rgb(75, 129, 19)
 
 }
 .article--map {
@@ -284,17 +284,17 @@ img {
 
 .article--map
 .article__item:first-child h2 {
-  color: rgb(160, 243, 160)
+  color: rgb(193, 220, 4)
 }
 
 .article--map
 .article__item:nth-child(2) h2 {
-  color: lightskyblue;
+  color: rgb(44,139,193);
 }
 
 .article--map 
 .article__item:nth-child(3) h2 {
-  color: green;
+  color: rgb(90,152,25);
 }
 
 .article--impact .article__link,
@@ -500,6 +500,14 @@ img {
 
 .pagination li {
   padding: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 @media (min-width: 768px) {
