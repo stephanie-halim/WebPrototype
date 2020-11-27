@@ -10,6 +10,15 @@ body {
   min-height: 100vh;
 }
 
+h1 a {
+  color: black;
+  text-decoration: None;
+}
+
+h1 a:hover {
+  text-decoration: Underline;
+}
+
 .navbar {
   display: flex;
   flex-grow: 0;
@@ -199,6 +208,10 @@ img {
   padding-right: 10px;
 }
 
+.article--home .article__link:hover {
+  background-color:#DADADA;
+}
+
 .article--stories .article__item:not(:last-child),
 .article .article__item:not(:last-child),
 .article--map .article__item:not(:last-child) {
@@ -239,8 +252,18 @@ img {
 }
 
 .article--impact 
+.article__item:first-child:hover{
+  background-color: rgb(160, 220, 160)
+}
+
+.article--impact 
 .article__item:nth-child(2) {
   background-color: lightskyblue;
+}
+
+.article--impact 
+.article__item:nth-child(2):hover {
+  background-color: rgb(125, 191, 233);
 }
 
 .article--impact 
@@ -248,6 +271,11 @@ img {
   background-color: green;
 }
 
+.article--impact 
+.article__item:nth-child(3):hover {
+  background-color: rgb(1, 110, 8)
+
+}
 .article--map {
   padding-right: 20px;
   padding-left: 20px;
@@ -420,6 +448,7 @@ img {
   width: 100%;
   height: 300px;
   background-image: url("https://source.unsplash.com/A4Ax1ApccfA/1024x1024");
+  background-position: top right;
 }
 
 .donate__banner img {
